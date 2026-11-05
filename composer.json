@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/music-live-performance-filament",
+  "description": "Live Performance and Setlists Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability592d0a01238e\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "music-live-performance-filament"
+    }
+  }
+}
